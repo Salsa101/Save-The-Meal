@@ -12,7 +12,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/build/assets/app-27abf3b7.css">
     <script src="/build/assets/app-cee1c8b9.js" defer></script>
-    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
 </head>
 
 <body>
