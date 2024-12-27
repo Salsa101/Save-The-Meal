@@ -157,14 +157,15 @@
                                     if (successMessage) {
                                         Swal.fire({
                                             icon: 'success',
-                                            title: 'Thank You for Your Donation!',
-                                            text: 'We’ve received your donation details',
+                                            title: 'Your Organization Registration was Successful!',
+                                            text: 'Thank you for registering as a beneficiary.',
                                             html: `
                                                     <p>Next Steps:</p>
                                                     <ul>
-                                                        <li>Send via Courier: Ship your package to: <strong>Jl. Kebon Jeruk Raya No. 10, Jakarta Barat, 11530</strong> Share the tracking number with us via <strong><i>WhatsApp.</i></strong></li>
-                                                        <li>Drop-off: We’ll contact you soon via WhatsApp to arrange the drop-off.</li>
+                                                        <li>Our team will contact you via WhatsApp to verify and clarify further information.</li>
+                                                        <li>After verification, you will receive further details regarding the donation shipment to your organization.</li>
                                                     </ul>
+                                                    <p>Thank you for playing a part in bringing benefits to many!</p>
                                                     `,
                                             confirmButtonText: 'Close',
                                             confirmButtonColor: '#0F4235',
