@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Save The Meal | Home</title>
-    {{-- <link rel="stylesheet" href="{{ asset('style/home.css') }}"> --}}
     <link rel="stylesheet" href="/style/home.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900;1000&display=swap"
