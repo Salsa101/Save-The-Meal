@@ -14,7 +14,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourprojectdomain.com",
+        "APP_URL": "https://project-save-the-meal.vercel.app",
         "APP_KEY": "base64:GHAYHFMgoOvr6jbDLeBRsYwBxG9VdyaZSTjVif1xLlo=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
