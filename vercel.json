@@ -5,11 +5,11 @@
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
-        { "src": "/build/(.*)", "dest": "/public/build/$1" },
-        { "src": "/(.*)", "dest": "/api/index.php" },
         { "src": "/style/(.*)", "dest": "/public/style/$1" },
         { "src": "/image/(.*)", "dest": "/public/image/$1" },
-        { "src": "/script/(.*)", "dest": "/public/script/$1" }
+        { "src": "/script/(.*)", "dest": "/public/script/$1" },
+        { "src": "/build/(.*)", "dest": "/public/build/$1" },
+        { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {
         "APP_ENV": "production",
